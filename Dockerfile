@@ -5,3 +5,4 @@ WORKDIR /app
 EXPOSE 6000
 ADD . /app
 EXPOSE 5000
+CMD [pythin abc.py]
